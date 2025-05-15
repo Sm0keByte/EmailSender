@@ -1,5 +1,7 @@
 # Getting Started
 
+Programma per inviare, ricevere e leggere email, (attualmente è presente solo la parte di log in), il design semplice e pulito permette di essere il più intuitibile posssibile
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
