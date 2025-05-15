@@ -1,0 +1,45 @@
+/* signup.css - Stili per il form di Sign Up */
+.sign-up-container form {
+  background: transparent; /* stesso sottofondo statico */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.sign-up-container form h1 {
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 20px;
+  color: #232323;
+}
+
+.sign-up-container form input {
+  width: 80%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.sign-up-container form button {
+  margin-top: 20px;
+  width: 40%;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(23,161,200);
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Pacifico', cursive;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sign-up-container form button:hover {
+  background-color: rgb(20,140,180);
+}

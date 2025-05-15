@@ -1,0 +1,5 @@
+com\smoke\emailsenderultimate\model\User.class
+com\smoke\emailsenderultimate\controller\IndexMap.class
+com\smoke\emailsenderultimate\repository\UserRepository.class
+com\smoke\emailsenderultimate\EmailSenderUltimateApplication.class
+com\smoke\emailsenderultimate\controller\UserController.class

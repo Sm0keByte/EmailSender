@@ -1,0 +1,79 @@
+/* signin.css - Stili per il form di Sign In */
+.sign-in-container form {
+  background: transparent; /* ereditando il sottofondo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.sign-in-container form h1 {
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 20px;
+  color: #232323;
+}
+
+.sign-in-container form input {
+  width: 80%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.sign-in-container form button {
+  margin-top: 20px;
+  width: 40%;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(23,161,200);
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Pacifico', cursive;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sign-in-container form button:hover {
+  background-color: rgb(20,140,180);
+}
+
+.social-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-container a {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: rgb(23,161,200);
+}
+
+.social-container a:hover {
+  background: rgb(23,161,200);
+  color: #fff;
+}
+
+.sign-in-container .forgot {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.sign-in-container .forgot a {
+  color: rgb(23,161,200);
+  text-decoration: none;
+}
